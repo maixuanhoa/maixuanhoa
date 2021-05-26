@@ -1,6 +1,27 @@
-bài tâp về nhà lession_02
-Hợp lệ:
-az , me , Hoa , month_day , hoa_02 ,Hoa_student ,product_09 , bitcoin_dowtrend , dogecoin_ 19
-không hợp lệ
-94_false , none . 02_true , and, as , class_01 , continue _007 , def , del , elif
-cám ơn thầy 
+#bài 1:
+my_list = [0, 1, 4, 'g', 6]
+print(my_list[0])
+print(my_list[1])
+print(my_list[-2])
+print(my_list[-1])
+#bài 2
+m_list = [0, 2, 4, 5, 1]
+max_list = m_list[0]
+for i in range(len(m_list)):
+    if m_list[i] > max_list:
+        max_list = m_list[i]
+print(f"max = {max_list}")
+
+min_list = m_list[0]
+for i in range(len(m_list)):
+    if m_list[i] < min_list:
+        min_list = m_list[i]
+print(f"min = {min_list}")
+#bài 3
+baby_list = [0, 1, 2, 3, 4, 5]
+baby_list.append(6)
+print(baby_list)
+#bài 7
+house = ["pan", "sofa", "hammer", "pilow"]
+print("pan" in house)
+print("pilow" not in house)
