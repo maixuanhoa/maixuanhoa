@@ -25,3 +25,5 @@ print(baby_list)
 house = ["pan", "sofa", "hammer", "pilow"]
 print("pan" in house)
 print("pilow" not in house)
+
+các bài khác em không biết làm kiểu gì ạ.a có thể gợi ý cho e được không ạ.e cám ơn a 
